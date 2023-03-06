@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    position: sticky;
+    top: 0;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: #fff;
+  }
+  

@@ -1,0 +1,23 @@
+
+.card {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+
+  box-shadow: 0 0 10px grey;
+  /* justify-content: space-around; */
+}
+.card > div:first-child {
+  width: 30%;
+}
+.card > div:first-child > div > img {
+  width: 100%;
+}
+.card > div:nth-child(2) {
+  width: 65%;
+  background-color: #edf796;
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+}

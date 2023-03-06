@@ -1,0 +1,27 @@
+.allProducts {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .sortandfilterdiv {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .sortandfilterdiv > div > select {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  @media all and (min-width: 450px) and (max-width: 900px) {
+    .allProducts {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media all and (min-width: 0px) and (max-width: 449px) {
+    .allProducts {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
